@@ -47,7 +47,18 @@ main img {
   margin: 0 auto;
 }
 
-.card {}
+.card {
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  padding: 5px 15px;
+  bottom: 50px;
+  left: 0;
+  color: white;
+  background-color: red;
+}
 
 .row {
   display: flex;
