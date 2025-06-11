@@ -28,6 +28,12 @@ footer {
 
 header div div a {
   padding-right: 5px;
+  color: white;
+}
+
+header img {
+  height: 40px;
+  width: 150px;
 }
 
 /* UTILITIES */
@@ -63,12 +69,20 @@ header div div a {
   height: 500px;
 }
 
+.size-20 {
+  font-size: 20px;
+}
+
 .border-b {
   border: 2px solid black;
 }
 
 .pd-0-10 {
   padding: 0 10px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .align-center {
