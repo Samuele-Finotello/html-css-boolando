@@ -37,6 +37,10 @@ header img {
   width: 170px;
 }
 
+main img {
+  width: 100%;
+}
+
 /* UTILITIES */
 .container {
   width: 1500px;
@@ -72,7 +76,7 @@ header img {
   width: calc(100% / 3);
 }
 
-.h-500 {
+.h-50 {
   height: 500px;
 }
 
