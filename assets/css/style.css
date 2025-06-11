@@ -19,6 +19,12 @@ main {
   padding: 150px 0;
 }
 
+footer {
+  padding: 30px;
+  display: flex;
+  background-color: aqua;
+}
+
 /* UTILITIES */
 .container {
   width: 1500px;
@@ -63,4 +69,8 @@ main {
 .align-center {
   display: flex;
   align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
