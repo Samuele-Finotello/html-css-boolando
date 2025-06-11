@@ -65,7 +65,7 @@ ul {
 .discount {
   position: absolute;
   padding: 5px 10px;
-  bottom: 100px;
+  bottom: 135px;
   color: white;
   background-color: red;
 }
@@ -73,13 +73,14 @@ ul {
 .eco {
   position: absolute;
   padding: 5px 10px;
-  bottom: 100px;
+  bottom: 135px;
   color: white;
   background-color: green;
 }
 
 .brand {
   color: gray;
+  font-weight: 600;
 }
 
 .name {
@@ -89,9 +90,11 @@ ul {
 
 .discounted {
   color: red;
+  font-weight: 900;
 }
 
 .full-price {
+  color: rgb(105, 105, 105);
   text-decoration: line-through;
 }
 
