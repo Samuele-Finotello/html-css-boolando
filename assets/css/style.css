@@ -41,10 +41,21 @@ main img {
   width: 100%;
 }
 
+ul {
+  list-style: none;
+}
+
 /* UTILITIES */
 .container {
   width: 1500px;
   margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  row-gap: 70px;
 }
 
 .card {
@@ -54,7 +65,7 @@ main img {
 .discount {
   position: absolute;
   padding: 5px 10px;
-  bottom: 50px;
+  bottom: 100px;
   color: white;
   background-color: red;
 }
@@ -62,9 +73,26 @@ main img {
 .eco {
   position: absolute;
   padding: 5px 10px;
-  bottom: 50px;
+  bottom: 100px;
   color: white;
   background-color: green;
+}
+
+.brand {
+  color: gray;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.discounted {
+  color: red;
+}
+
+.full-price {
+  text-decoration: line-through;
 }
 
 .left-0 {
@@ -73,11 +101,6 @@ main img {
 
 .left-65 {
   left: 65px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .fa-regular,
@@ -99,7 +122,7 @@ main img {
 }
 
 .wd-33 {
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 20px);
 }
 
 .h-50 {
