@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
   position: fixed;
   display: flex;
   z-index: 1;
-  background-color: aqua;
+  background-color: rgb(254, 105, 0);
 }
 
 main {
@@ -23,6 +24,10 @@ footer {
   padding: 30px;
   display: flex;
   background-color: aqua;
+}
+
+header div div a {
+  padding-right: 5px;
 }
 
 /* UTILITIES */
