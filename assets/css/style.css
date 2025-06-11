@@ -115,6 +115,26 @@ h3 {
   background-color: white;
 }
 
+.heart:hover {
+  color: red;
+}
+
+.front-image {
+  display: block;
+}
+
+.back-image {
+  display: none;
+}
+
+.card:hover .front-image {
+  display: none;
+}
+
+.card:hover .back-image {
+  display: block;
+}
+
 .left-0 {
   left: 0;
 }
@@ -131,10 +151,6 @@ h3 {
 
 .fa-brands {
   margin: 10px;
-}
-
-.bg-violet {
-  background-color: blueviolet
 }
 
 .wd-20 {
@@ -159,10 +175,6 @@ h3 {
 
 .size-20 {
   font-size: 20px;
-}
-
-.border-b {
-  border: 2px solid black;
 }
 
 .text-center {
