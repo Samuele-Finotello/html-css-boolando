@@ -8,7 +8,7 @@
 
 header {
   width: 100%;
-  padding: 30px;
+  padding: 20px;
   box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.4);
   position: fixed;
   display: flex;
@@ -29,11 +29,12 @@ footer {
 header div div a {
   padding-right: 5px;
   color: white;
+  text-decoration: none;
 }
 
 header img {
   height: 40px;
-  width: 150px;
+  width: 170px;
 }
 
 /* UTILITIES */
@@ -47,6 +48,12 @@ header img {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.fa-regular,
+.fa-solid {
+  color: white;
+  margin-left: 20px;
 }
 
 .bg-violet {
@@ -77,12 +84,12 @@ header img {
   border: 2px solid black;
 }
 
-.pd-0-10 {
-  padding: 0 10px;
-}
-
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .align-center {
